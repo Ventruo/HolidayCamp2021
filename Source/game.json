@@ -529,7 +529,7 @@
         "gridWidth": 16,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.5400000000000034
+        "zoomFactor": 0.36000000000000365
       },
       "objectsGroups": [
         {
@@ -581,7 +581,7 @@
           "width": 64,
           "x": 80,
           "y": 592,
-          "zOrder": 1,
+          "zOrder": 99999,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -691,8 +691,8 @@
           "name": "Skeleton",
           "persistentUuid": "d88bdaba-187c-48e5-9996-ec7da64b077e",
           "width": 96,
-          "x": 752,
-          "y": 624,
+          "x": 747,
+          "y": 607,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -739,8 +739,8 @@
           "name": "SkeletonView",
           "persistentUuid": "c9c1744c-435a-4bcf-ba5e-eab347d1da8c",
           "width": 0,
-          "x": 816,
-          "y": 656,
+          "x": 811,
+          "y": 639,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -757,7 +757,7 @@
           "width": 48,
           "x": 32,
           "y": 32,
-          "zOrder": 14,
+          "zOrder": 99999,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -773,7 +773,7 @@
           "width": 48,
           "x": 96,
           "y": 32,
-          "zOrder": 15,
+          "zOrder": 99999,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -789,7 +789,7 @@
           "width": 48,
           "x": 160,
           "y": 32,
-          "zOrder": 16,
+          "zOrder": 99999,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1132,15 +1132,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 78,
           "layer": "",
           "locked": false,
           "name": "ladder",
           "persistentUuid": "7d1daea4-1405-4b1e-aef8-11f23b114ce6",
-          "width": 0,
-          "x": 1680,
-          "y": 608,
+          "width": 32,
+          "x": 1682,
+          "y": 593,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1357,14 +1357,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 112,
+          "height": 182,
           "layer": "Lighting",
-          "locked": false,
+          "locked": true,
           "name": "LightLamp",
           "persistentUuid": "f322d03a-99e3-4988-a31a-7f61fc1c7e91",
-          "width": 112,
-          "x": 1785,
-          "y": 656,
+          "width": 191,
+          "x": 1784,
+          "y": 658,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -1375,12 +1375,12 @@
           "customSize": false,
           "height": 0,
           "layer": "Lighting",
-          "locked": false,
+          "locked": true,
           "name": "LightLamp",
           "persistentUuid": "7567b582-b6f4-443c-a7e5-4c4fc6af7f33",
           "width": 0,
-          "x": 1865,
-          "y": 661,
+          "x": 1863,
+          "y": 659,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -1391,13 +1391,29 @@
           "customSize": false,
           "height": 0,
           "layer": "Lighting",
-          "locked": false,
+          "locked": true,
           "name": "LightLamp",
           "persistentUuid": "14da2157-e286-4462-9bf8-40ea6933a3b2",
           "width": 0,
           "x": 1947,
           "y": 662,
           "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 416,
+          "layer": "",
+          "locked": false,
+          "name": "Background2",
+          "persistentUuid": "6d764545-dfe3-4abb-a293-c91979591e52",
+          "width": 3680,
+          "x": -464,
+          "y": 831,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1418,13 +1434,13 @@
           ],
           "behaviors": [
             {
+              "ignoreDefaultControls": false,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1000,
               "canGrabPlatforms": false,
               "deceleration": 1000,
               "gravity": 1000,
-              "ignoreDefaultControls": true,
               "jumpSpeed": 400,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 100,
@@ -3219,20 +3235,11 @@
           "variables": [],
           "behaviors": [],
           "content": {
-            "radius": 50,
+            "radius": 100,
             "color": "#f8eb11",
             "debugMode": false,
             "texture": ""
           }
-        },
-        {
-          "name": "NewObject",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": []
         }
       ],
       "events": [
@@ -3313,7 +3320,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3528,21 +3535,6 @@
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3591,6 +3583,49 @@
                   "parameters": [
                     "Player",
                     "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "w"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateUpKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateLadderKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
                   ],
                   "subInstructions": []
                 }
@@ -4318,7 +4353,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Background",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4468,6 +4503,122 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "StartMenu",
+      "name": "StartMenu",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 7849448,
+          "ambientLightColorG": 8153624,
+          "ambientLightColorR": 7462152,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "GameOver",
+      "name": "GameOver",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 7874504,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
