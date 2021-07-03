@@ -451,6 +451,51 @@
         "name": "bakcground_night3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "33.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "light-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "light-01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "light-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "light-02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "light-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "light-03.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "light-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "light-04.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -473,7 +518,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 16,
@@ -482,9 +527,9 @@
         "gridR": 158,
         "gridType": "rectangular",
         "gridWidth": 16,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.34000000000000064
+        "zoomFactor": 0.5400000000000034
       },
       "objectsGroups": [
         {
@@ -960,14 +1005,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 336,
+          "height": 352,
           "layer": "",
           "locked": false,
           "name": "DirtFill3",
           "persistentUuid": "7900d7b9-ad24-400f-be14-ab88d2608087",
           "width": 320,
           "x": 1680,
-          "y": 624,
+          "y": 608,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -983,7 +1028,7 @@
           "persistentUuid": "b05109e3-48fc-4268-b4ee-e96a1c7dad55",
           "width": 16,
           "x": 1664,
-          "y": 624,
+          "y": 608,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -992,14 +1037,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 336,
+          "height": 352,
           "layer": "",
           "locked": false,
           "name": "DirtRightEdge",
           "persistentUuid": "326e84df-07e7-4e6a-baaa-3a0e1571e682",
           "width": 16,
           "x": 2000,
-          "y": 624,
+          "y": 608,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1015,7 +1060,7 @@
           "persistentUuid": "6be1e410-df0a-440d-9dc1-37dd3186911a",
           "width": 352,
           "x": 1664,
-          "y": 608,
+          "y": 592,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1029,7 +1074,7 @@
           "locked": false,
           "name": "Background0",
           "persistentUuid": "2b4f237b-7885-4f00-8ffb-9af3641fac21",
-          "width": 1952,
+          "width": 3680,
           "x": -464,
           "y": 432,
           "zOrder": -3,
@@ -1045,7 +1090,7 @@
           "locked": false,
           "name": "Background1",
           "persistentUuid": "b23e8736-1f89-4c48-9361-124be84e04ca",
-          "width": 1952,
+          "width": 3664,
           "x": -464,
           "y": 432,
           "zOrder": -2,
@@ -1061,10 +1106,298 @@
           "locked": false,
           "name": "Background2",
           "persistentUuid": "1df876a5-604b-4f71-af18-7287ba944927",
-          "width": 1952,
+          "width": 3680,
           "x": -464,
           "y": 432,
           "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 416,
+          "layer": "",
+          "locked": false,
+          "name": "Background2",
+          "persistentUuid": "111c5aaa-b15a-47af-af41-41c3c314b353",
+          "width": 3680,
+          "x": -464,
+          "y": 16,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "7d1daea4-1405-4b1e-aef8-11f23b114ce6",
+          "width": 0,
+          "x": 1680,
+          "y": 608,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "DirtMid",
+          "persistentUuid": "d0236435-3984-4e0a-b833-5e56370ac91f",
+          "width": 96,
+          "x": 1760,
+          "y": 720,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "661f059f-e554-4115-a4f9-d44818a1d44e",
+          "width": 16,
+          "x": 1760,
+          "y": 736,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "23a6f87b-04a2-4134-9830-dc2d66440ddb",
+          "width": 16,
+          "x": 1840,
+          "y": 736,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "DirtMid",
+          "persistentUuid": "8c006143-c4b3-4684-abe6-26cad4b06a65",
+          "width": 96,
+          "x": 1904,
+          "y": 720,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "0b6070a7-2a75-42cf-80dc-22080e4c063b",
+          "width": 16,
+          "x": 1904,
+          "y": 736,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "e0d1e416-3485-4688-b350-7d93a4befd88",
+          "width": 16,
+          "x": 1984,
+          "y": 736,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "DirtMid",
+          "persistentUuid": "3e570acd-6de6-4dcd-b6b0-879ad3c3c7c3",
+          "width": 96,
+          "x": 2048,
+          "y": 720,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "b3a1391f-9737-45d5-a7a5-e17e0576d969",
+          "width": 16,
+          "x": 2048,
+          "y": 736,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "0061078a-eff6-4407-ada8-26be2ad6251a",
+          "width": 16,
+          "x": 2128,
+          "y": 736,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "locked": false,
+          "name": "DirtFill3",
+          "persistentUuid": "c5f1e43b-f491-4d0f-917b-e81d6b0163ff",
+          "width": 64,
+          "x": 2064,
+          "y": 736,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "Lamp",
+          "persistentUuid": "812c3ae3-f636-499e-878c-8c8497a30e96",
+          "width": 16,
+          "x": 1776,
+          "y": 624,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "Lamp",
+          "persistentUuid": "6ed14d28-e869-4125-8b48-61411073d83e",
+          "width": 16,
+          "x": 1856,
+          "y": 624,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "Lamp",
+          "persistentUuid": "27f0925c-7431-4158-98fb-a48e17a967a0",
+          "width": 16,
+          "x": 1936,
+          "y": 624,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 112,
+          "layer": "Lighting",
+          "locked": false,
+          "name": "LightLamp",
+          "persistentUuid": "f322d03a-99e3-4988-a31a-7f61fc1c7e91",
+          "width": 112,
+          "x": 1785,
+          "y": 656,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Lighting",
+          "locked": false,
+          "name": "LightLamp",
+          "persistentUuid": "7567b582-b6f4-443c-a7e5-4c4fc6af7f33",
+          "width": 0,
+          "x": 1865,
+          "y": 661,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Lighting",
+          "locked": false,
+          "name": "LightLamp",
+          "persistentUuid": "14da2157-e286-4462-9bf8-40ea6933a3b2",
+          "width": 0,
+          "x": 1947,
+          "y": 662,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1656,9 +1989,13 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            },
+            {
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "NormalPlatform",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -1713,8 +2050,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "NormalPlatform",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -1728,7 +2065,12 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 16,
           "variables": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            }
+          ]
         },
         {
           "height": 16,
@@ -1741,8 +2083,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "NormalPlatform",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -1756,7 +2098,12 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 16,
           "variables": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            }
+          ]
         },
         {
           "name": "Skeleton",
@@ -2690,10 +3037,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
               "yGrabOffset": 0
             }
           ]
@@ -2727,6 +3074,165 @@
           "width": 32,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "name": "ladder",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "33.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lamp",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "light-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "light-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "light-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "light-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LightLamp",
+          "tags": "",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "radius": 50,
+            "color": "#f8eb11",
+            "debugMode": false,
+            "texture": ""
+          }
+        },
+        {
+          "name": "NewObject",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [
@@ -3838,6 +4344,18 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "TiledSpriteObject::YOffset"
+                  },
+                  "parameters": [
+                    "Background0",
+                    "=",
+                    "CameraY(\"base\",0)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "TiledSpriteObject::XOffset"
                   },
                   "parameters": [
@@ -3850,12 +4368,36 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "TiledSpriteObject::YOffset"
+                  },
+                  "parameters": [
+                    "Background1",
+                    "=",
+                    "CameraY(\"base\",0)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "TiledSpriteObject::XOffset"
                   },
                   "parameters": [
                     "Background2",
                     "=",
                     "Player.X()*0.3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::YOffset"
+                  },
+                  "parameters": [
+                    "Background2",
+                    "=",
+                    "CameraY(\"base\",0)"
                   ],
                   "subInstructions": []
                 }
@@ -3899,9 +4441,24 @@
           "visibility": true,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 128,
+          "ambientLightColorG": 128,
+          "ambientLightColorR": 128,
+          "followBaseLayerCamera": true,
+          "isLightingLayer": true,
+          "name": "Lighting",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
