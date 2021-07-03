@@ -424,6 +424,33 @@
         "name": "NewObject-1-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bakcground_night1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bakcground_night1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bakcground_night2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bakcground_night2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bakcground_night3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bakcground_night3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -457,7 +484,7 @@
         "gridWidth": 16,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.6199999999999999
+        "zoomFactor": 0.34000000000000064
       },
       "objectsGroups": [
         {
@@ -507,8 +534,8 @@
           "name": "Player",
           "persistentUuid": "63f80574-da1b-49be-852c-3578a3a7a66e",
           "width": 64,
-          "x": 96,
-          "y": 576,
+          "x": 80,
+          "y": 592,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -522,9 +549,9 @@
           "locked": false,
           "name": "DirtMid",
           "persistentUuid": "d90b22ae-539d-43a4-8309-326117fde284",
-          "width": 1248,
-          "x": 16,
-          "y": 624,
+          "width": 1712,
+          "x": -448,
+          "y": 672,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -540,7 +567,7 @@
           "persistentUuid": "e094a9ba-db27-4eca-a21d-1dc5286dad3a",
           "width": 0,
           "x": 1008,
-          "y": 624,
+          "y": 672,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -555,8 +582,8 @@
           "name": "DirtLeft",
           "persistentUuid": "bdc45947-8ce5-4c5d-8ae3-fb96983d177c",
           "width": 0,
-          "x": 0,
-          "y": 624,
+          "x": -464,
+          "y": 672,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -572,7 +599,7 @@
           "persistentUuid": "563adf3c-f7c3-458a-8d3e-f42b4e14ddbf",
           "width": 16,
           "x": 1264,
-          "y": 640,
+          "y": 688,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -586,9 +613,9 @@
           "locked": false,
           "name": "DirtFill3",
           "persistentUuid": "d690a21d-6609-4ce6-8b75-f9c9175b2291",
-          "width": 1248,
-          "x": 16,
-          "y": 640,
+          "width": 1712,
+          "x": -448,
+          "y": 688,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -603,8 +630,8 @@
           "name": "DirtLeftEdge",
           "persistentUuid": "5156e9a2-b09a-43ac-bb09-84334e345ac1",
           "width": 16,
-          "x": 0,
-          "y": 640,
+          "x": -464,
+          "y": 688,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -620,7 +647,7 @@
           "persistentUuid": "d88bdaba-187c-48e5-9996-ec7da64b077e",
           "width": 96,
           "x": 752,
-          "y": 563,
+          "y": 624,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -636,7 +663,7 @@
           "persistentUuid": "5b3ff857-2e53-444b-929a-6bf2ab42f44e",
           "width": 16,
           "x": 848,
-          "y": 595,
+          "y": 656,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -652,7 +679,7 @@
           "persistentUuid": "a0572bf4-be64-4efc-b855-5c1f4fdcb499",
           "width": 16,
           "x": 720,
-          "y": 595,
+          "y": 656,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -668,7 +695,7 @@
           "persistentUuid": "c9c1744c-435a-4bcf-ba5e-eab347d1da8c",
           "width": 0,
           "x": 816,
-          "y": 595,
+          "y": 656,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -732,8 +759,312 @@
           "persistentUuid": "6ad6a0fd-7c41-444d-a7fe-5106f6403a7d",
           "width": 0,
           "x": 1264,
-          "y": 624,
+          "y": 672,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 272,
+          "layer": "",
+          "locked": false,
+          "name": "DirtFill3",
+          "persistentUuid": "8675dbbc-17ca-42c1-bae5-d418096376b2",
+          "width": 96,
+          "x": 1376,
+          "y": 688,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 272,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "035cfc51-5d8f-467b-a489-2bc4293c71c4",
+          "width": 16,
+          "x": 1472,
+          "y": 688,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "height": 272,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "15ca430c-36af-4a75-ac0f-ccf9f5dbe9e2",
+          "width": 16,
+          "x": 1360,
+          "y": 688,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "DirtMid",
+          "persistentUuid": "b9125d20-86cf-4e03-b992-aca04441122e",
+          "width": 96,
+          "x": 1376,
+          "y": 672,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "DirtLeft",
+          "persistentUuid": "141d394a-04e5-46e3-a2d1-1721848087ca",
+          "width": 0,
+          "x": 1360,
+          "y": 672,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRight",
+          "persistentUuid": "335d5211-f409-4989-8d6a-0fe453f10658",
+          "width": 0,
+          "x": 1472,
+          "y": 672,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 272,
+          "layer": "",
+          "locked": false,
+          "name": "DirtFill3",
+          "persistentUuid": "5807ba22-b4b3-478a-b13e-93135e88ca1f",
+          "width": 96,
+          "x": 1616,
+          "y": 688,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 272,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "d4c8bf1e-aa5c-4dea-8bf2-e31e72c299d2",
+          "width": 16,
+          "x": 1712,
+          "y": 688,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "height": 272,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "bbf41af3-6348-45dd-ba02-b3e31fafe0aa",
+          "width": 16,
+          "x": 1600,
+          "y": 688,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "DirtMid",
+          "persistentUuid": "4079885d-0371-41cb-a67c-57668f02c70a",
+          "width": 96,
+          "x": 1616,
+          "y": 672,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "DirtLeft",
+          "persistentUuid": "ba5d7335-c021-43c2-889d-7598dfcd63e2",
+          "width": 0,
+          "x": 1600,
+          "y": 672,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRight",
+          "persistentUuid": "94f71d82-b73a-4dce-a456-f615338cdc45",
+          "width": 0,
+          "x": 1712,
+          "y": 672,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 336,
+          "layer": "",
+          "locked": false,
+          "name": "DirtFill3",
+          "persistentUuid": "7900d7b9-ad24-400f-be14-ab88d2608087",
+          "width": 320,
+          "x": 1680,
+          "y": 624,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "height": 336,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "b05109e3-48fc-4268-b4ee-e96a1c7dad55",
+          "width": 16,
+          "x": 1664,
+          "y": 624,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 336,
+          "layer": "",
+          "locked": false,
+          "name": "DirtRightEdge",
+          "persistentUuid": "326e84df-07e7-4e6a-baaa-3a0e1571e682",
+          "width": 16,
+          "x": 2000,
+          "y": 624,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "JumpTroughDirtMid",
+          "persistentUuid": "6be1e410-df0a-440d-9dc1-37dd3186911a",
+          "width": 352,
+          "x": 1664,
+          "y": 608,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 400,
+          "layer": "",
+          "locked": false,
+          "name": "Background0",
+          "persistentUuid": "2b4f237b-7885-4f00-8ffb-9af3641fac21",
+          "width": 1952,
+          "x": -464,
+          "y": 432,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 400,
+          "layer": "",
+          "locked": false,
+          "name": "Background1",
+          "persistentUuid": "b23e8736-1f89-4c48-9361-124be84e04ca",
+          "width": 1952,
+          "x": -464,
+          "y": 432,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 400,
+          "layer": "",
+          "locked": false,
+          "name": "Background2",
+          "persistentUuid": "1df876a5-604b-4f71-af18-7287ba944927",
+          "width": 1952,
+          "x": -464,
+          "y": 432,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1316,19 +1647,19 @@
           ]
         },
         {
-          "height": 32,
+          "height": 16,
           "name": "DirtMid",
           "tags": "",
           "texture": "Terrain_1_2.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "width": 16,
           "variables": [],
           "behaviors": [
             {
               "name": "Platform",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -1382,20 +1713,20 @@
           "behaviors": [
             {
               "name": "Platform",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
         },
         {
-          "height": 32,
+          "height": 16,
           "name": "DirtRightEdge",
           "tags": "",
           "texture": "Terrain_1_11.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "width": 16,
           "variables": [],
           "behaviors": []
         },
@@ -1410,9 +1741,9 @@
           "behaviors": [
             {
               "name": "Platform",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -2348,6 +2679,54 @@
               ]
             }
           ]
+        },
+        {
+          "height": 16,
+          "name": "JumpTroughDirtMid",
+          "tags": "",
+          "texture": "Terrain_1_2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Background0",
+          "tags": "",
+          "texture": "bakcground_night1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "Background1",
+          "tags": "",
+          "texture": "bakcground_night2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "Background2",
+          "tags": "",
+          "texture": "bakcground_night3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -2428,7 +2807,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2643,6 +3022,21 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2653,6 +3047,20 @@
                   "parameters": [
                     "",
                     "a"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraX"
+                  },
+                  "parameters": [
+                    "",
+                    ">",
+                    "0",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -2692,7 +3100,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Enemy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3157,7 +3565,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "UI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3389,6 +3797,65 @@
                   },
                   "parameters": [
                     "Health3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Background",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::XOffset"
+                  },
+                  "parameters": [
+                    "Background0",
+                    "=",
+                    "Player.X()*0.02"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::XOffset"
+                  },
+                  "parameters": [
+                    "Background1",
+                    "=",
+                    "Player.X()*0.1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::XOffset"
+                  },
+                  "parameters": [
+                    "Background2",
+                    "=",
+                    "Player.X()*0.3"
                   ],
                   "subInstructions": []
                 }
