@@ -1036,18 +1036,18 @@
   "variables": [],
   "layouts": [
     {
-      "b": 209,
+      "b": 53,
       "disableInputWhenNotFocused": true,
       "mangledName": "stage_451",
       "name": "stage-1",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 43,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 56,
       "uiSettings": {
         "grid": true,
         "gridB": 255,
@@ -1060,7 +1060,7 @@
         "gridWidth": 16,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.2000000000000048
+        "zoomFactor": 0.5600000000000049
       },
       "objectsGroups": [
         {
@@ -1621,22 +1621,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 416,
-          "layer": "",
-          "locked": false,
-          "name": "Background2",
-          "persistentUuid": "111c5aaa-b15a-47af-af41-41c3c314b353",
-          "width": 3680,
-          "x": -464,
-          "y": 16,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 78,
           "layer": "",
           "locked": false,
@@ -1902,22 +1886,6 @@
           "x": 1947,
           "y": 662,
           "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "height": 416,
-          "layer": "",
-          "locked": false,
-          "name": "Background2",
-          "persistentUuid": "6d764545-dfe3-4abb-a293-c91979591e52",
-          "width": 3680,
-          "x": -464,
-          "y": 831,
-          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2958,6 +2926,22 @@
           "x": 1616,
           "y": 608,
           "zOrder": 100027,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Lighting",
+          "locked": false,
+          "name": "PlayerLight",
+          "persistentUuid": "5b8c0fe7-8676-4f48-b1d1-953d7b4bc4ab",
+          "width": 0,
+          "x": 112,
+          "y": 608,
+          "zOrder": 100028,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5214,6 +5198,8 @@
           ],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -5224,10 +5210,8 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 150,
-              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
@@ -5849,10 +5833,10 @@
           ],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
               "yGrabOffset": 0
             }
           ],
@@ -6098,9 +6082,9 @@
           "variables": [],
           "behaviors": [
             {
-              "extraBorder": 0,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
             }
           ],
           "animations": [
@@ -6563,6 +6547,19 @@
               ]
             }
           ]
+        },
+        {
+          "name": "PlayerLight",
+          "tags": "",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "radius": 100,
+            "color": "#f5ed8d",
+            "debugMode": false,
+            "texture": ""
+          }
         }
       ],
       "events": [
@@ -6882,7 +6879,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7084,7 +7081,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7174,7 +7171,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7328,7 +7325,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7418,7 +7415,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7769,6 +7766,54 @@
                   "parameters": [
                     "EyeMonster",
                     ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Light",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "PlayerLight",
+                    "=",
+                    "Player.CenterX()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "PlayerLight",
+                    "=",
+                    "Player.CenterY()"
                   ],
                   "subInstructions": []
                 }
@@ -9383,23 +9428,44 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "UI",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        },
-        {
           "ambientLightColorB": 128,
           "ambientLightColorG": 128,
           "ambientLightColorR": 128,
           "followBaseLayerCamera": true,
           "isLightingLayer": true,
           "name": "Lighting",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "CRT",
+              "name": "CRT",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "animationSpeed": 1,
+                "curvature": 1,
+                "lineContrast": 0.25,
+                "lineWidth": 1,
+                "noise": 0.3,
+                "noiseSize": 1,
+                "vignetting": 0.3,
+                "vignettingAlpha": 1,
+                "vignettingBlur": 0.3
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "verticalLine": false
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "UI",
           "visibility": true,
           "cameras": [],
           "effects": []
