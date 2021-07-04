@@ -1142,18 +1142,18 @@
   "variables": [],
   "layouts": [
     {
-      "b": 209,
+      "b": 53,
       "disableInputWhenNotFocused": true,
       "mangledName": "stage_451",
       "name": "stage-1",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 43,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 56,
       "uiSettings": {
         "grid": true,
         "gridB": 255,
@@ -1166,6 +1166,7 @@
         "gridWidth": 16,
         "snap": true,
         "windowMask": false,
+        "zoomFactor": 0.5600000000000049
         "zoomFactor": 0.9800000000000049
       },
       "objectsGroups": [
@@ -1732,22 +1733,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 416,
-          "layer": "",
-          "locked": false,
-          "name": "Background2",
-          "persistentUuid": "111c5aaa-b15a-47af-af41-41c3c314b353",
-          "width": 3680,
-          "x": -464,
-          "y": 16,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 78,
           "layer": "",
           "locked": false,
@@ -2013,22 +1998,6 @@
           "x": 1947,
           "y": 662,
           "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "height": 416,
-          "layer": "",
-          "locked": false,
-          "name": "Background2",
-          "persistentUuid": "6d764545-dfe3-4abb-a293-c91979591e52",
-          "width": 3680,
-          "x": -464,
-          "y": 831,
-          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3069,6 +3038,22 @@
           "x": 1616,
           "y": 640,
           "zOrder": 100027,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Lighting",
+          "locked": false,
+          "name": "PlayerLight",
+          "persistentUuid": "5b8c0fe7-8676-4f48-b1d1-953d7b4bc4ab",
+          "width": 0,
+          "x": 112,
+          "y": 608,
+          "zOrder": 100028,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6712,6 +6697,19 @@
           ]
         },
         {
+          "name": "PlayerLight",
+          "tags": "",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "radius": 100,
+            "color": "#f5ed8d",
+            "debugMode": false,
+            "texture": ""
+          }
+        },
+        {
           "bold": false,
           "italic": false,
           "name": "EndMessage",
@@ -10124,6 +10122,38 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 128,
+          "ambientLightColorG": 128,
+          "ambientLightColorR": 128,
+          "followBaseLayerCamera": true,
+          "isLightingLayer": true,
+          "name": "Lighting",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "CRT",
+              "name": "CRT",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "animationSpeed": 1,
+                "curvature": 1,
+                "lineContrast": 0.25,
+                "lineWidth": 1,
+                "noise": 0.3,
+                "noiseSize": 1,
+                "vignetting": 0.3,
+                "vignettingAlpha": 1,
+                "vignettingBlur": 0.3
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "verticalLine": false
+              }
+            }
+          ]
         },
         {
           "ambientLightColorB": 128,
