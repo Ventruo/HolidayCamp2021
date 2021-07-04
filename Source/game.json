@@ -1142,18 +1142,18 @@
   "variables": [],
   "layouts": [
     {
-      "b": 53,
+      "b": 209,
       "disableInputWhenNotFocused": true,
       "mangledName": "stage_451",
       "name": "stage-1",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 43,
+      "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 56,
+      "v": 209,
       "uiSettings": {
         "grid": true,
         "gridB": 255,
@@ -1166,8 +1166,7 @@
         "gridWidth": 16,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5600000000000049
-        "zoomFactor": 0.9800000000000049
+        "zoomFactor": 1.220000000000005
       },
       "objectsGroups": [
         {
@@ -1227,8 +1226,8 @@
           "name": "Player",
           "persistentUuid": "63f80574-da1b-49be-852c-3578a3a7a66e",
           "width": 64,
-          "x": 96,
-          "y": 576,
+          "x": 496,
+          "y": 592,
           "zOrder": 99999,
           "numberProperties": [],
           "stringProperties": [],
@@ -1733,6 +1732,22 @@
         {
           "angle": 0,
           "customSize": true,
+          "height": 416,
+          "layer": "",
+          "locked": false,
+          "name": "Background2",
+          "persistentUuid": "111c5aaa-b15a-47af-af41-41c3c314b353",
+          "width": 3680,
+          "x": -464,
+          "y": 16,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "height": 78,
           "layer": "",
           "locked": false,
@@ -1998,6 +2013,22 @@
           "x": 1947,
           "y": 662,
           "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 416,
+          "layer": "",
+          "locked": false,
+          "name": "Background2",
+          "persistentUuid": "6d764545-dfe3-4abb-a293-c91979591e52",
+          "width": 3680,
+          "x": -464,
+          "y": 831,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3046,22 +3077,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "Lighting",
-          "locked": false,
-          "name": "PlayerLight",
-          "persistentUuid": "5b8c0fe7-8676-4f48-b1d1-953d7b4bc4ab",
-          "width": 0,
-          "x": 112,
-          "y": 608,
-          "zOrder": 100028,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
           "layer": "",
           "locked": false,
           "name": "EndMessage",
@@ -3095,13 +3110,13 @@
           ],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1000,
               "jumpSpeed": 400,
               "ladderClimbingSpeed": 100,
               "maxFallingSpeed": 500,
               "maxSpeed": 150,
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "ignoreDefaultControls": false,
               "canGrabPlatforms": false,
               "deceleration": 1000,
@@ -6697,19 +6712,6 @@
           ]
         },
         {
-          "name": "PlayerLight",
-          "tags": "",
-          "type": "Lighting::LightObject",
-          "variables": [],
-          "behaviors": [],
-          "content": {
-            "radius": 100,
-            "color": "#f5ed8d",
-            "debugMode": false,
-            "texture": ""
-          }
-        },
-        {
           "bold": false,
           "italic": false,
           "name": "EndMessage",
@@ -6859,7 +6861,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7199,7 +7201,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Player Melee Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7465,6 +7467,20 @@
                           "parameters": [
                             "EyeMonster",
                             ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "skeleton-crack.mp3",
+                            "",
+                            "50",
+                            "1"
                           ],
                           "subInstructions": []
                         },
@@ -7797,7 +7813,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Arrow Collision",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7914,6 +7930,20 @@
                       "parameters": [
                         "EyeMonster",
                         ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "skeleton-crack.mp3",
+                        "",
+                        "50",
+                        "1"
                       ],
                       "subInstructions": []
                     },
@@ -10122,38 +10152,6 @@
             }
           ],
           "effects": []
-        },
-        {
-          "ambientLightColorB": 128,
-          "ambientLightColorG": 128,
-          "ambientLightColorR": 128,
-          "followBaseLayerCamera": true,
-          "isLightingLayer": true,
-          "name": "Lighting",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "CRT",
-              "name": "CRT",
-              "doubleParameters": {
-                "animationFrequency": 60,
-                "animationSpeed": 1,
-                "curvature": 1,
-                "lineContrast": 0.25,
-                "lineWidth": 1,
-                "noise": 0.3,
-                "noiseSize": 1,
-                "vignetting": 0.3,
-                "vignettingAlpha": 1,
-                "vignettingBlur": 0.3
-              },
-              "stringParameters": {},
-              "booleanParameters": {
-                "verticalLine": false
-              }
-            }
-          ]
         },
         {
           "ambientLightColorB": 128,
